@@ -5,6 +5,9 @@
 const Discord = require("discord.js");
 const bot = new Discord.Client();
 
+// replace this with the bot token
+const token = "NDAzODMzMDI1MjA2NTUwNTI5.DUNCVg.widcS7CBy3BUCaUeBrSw6HXyE50";
+
 // feel free to change this next constant
 // this is probability that the bot will respond to a message
 // pretty much, it will respond once every _____ messages
@@ -75,4 +78,4 @@ bot.on("message", message =>
 	}
 });
 
-bot.login(process.env.BOT_TOKEN);
+bot.login(token);
