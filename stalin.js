@@ -10,7 +10,7 @@ const bot = new Discord.Client();
 // pretty much, it will respond once every _____ messages
 // by default it will only respond to one out of thirty messages
 // lower is more often, higher is less often
-const probability = 1;
+const probability = 30;
 
 const templates = [
 	"We must seize {noun} and protect Motherland.",
